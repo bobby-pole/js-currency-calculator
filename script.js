@@ -12,11 +12,7 @@ countButton.addEventListener("click", (e) => {
       .then((response) => response.json())
       .then((data) => {
         document.querySelector("#total").innerHTML =
-          "To" +
-          " " +
-          (data.rates[0].mid * currencyAmount).toFixed(2) +
-          " " +
-          "PLN";
+          " " + (data.rates[0].mid * currencyAmount).toFixed(2) + " " + "PLN";
       })
       .catch((error) => {
         document.querySelector(".error").textContent =
