@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 100vh;
+  width: 100vw;
+}
+
+.currency-counter {
+  min-height: 92%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+#logo {
+  font-size: 100px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+section {
+  /* display: flex;
+  flex-direction: row; */
+  margin-left: 80px;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#amount {
+  font-size: 25px;
+}
+
+#selectCurrency {
+  margin: 10px;
+  font-size: 25px;
+}
+
+#count {
+  margin: 10px;
+  font-size: 25px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  border: solid 2px white;
+}
+
+#count:hover {
+  background-color: white;
+  color: black;
+  border: solid 2px #008cba;
+}
+
+#total {
+  margin: 10px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.error {
+  margin: 50px;
+  font-weight: 500;
+  font-size: 30px;
+  color: red;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8%;
+  background-color: #494949;
+  font-size: 18px;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
